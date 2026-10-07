@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="100%" height="200" viewBox="0 0 900 200" fill="none">
+  <defs>
+    <linearGradient id="stackBgDark" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0F172A"/>
+      <stop offset="100%" stop-color="#060913"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="900" height="200" rx="12" fill="url(#stackBgDark)"/>
+  <rect x="1" y="1" width="898" height="198" rx="11" stroke="#1E293B" stroke-width="1"/>
+  <rect x="5" y="5" width="890" height="190" rx="9" stroke="#38BDF8" stroke-opacity="0.15" stroke-width="1"/>
+
+  <!-- Top Title -->
+  <g transform="translate(24, 22)">
+    <text x="0" y="0" fill="#38BDF8" font-family="'JetBrains Mono', Consolas, monospace" font-size="10" font-weight="700" letter-spacing="1.5">02 // CORE ENGINEERING &amp; SYSTEMS TAXONOMY</text>
+  </g>
+
+  <!-- Column 1: Agentic & AI -->
+  <g transform="translate(24, 40)">
+    <rect width="200" height="142" rx="8" fill="#1E293B" fill-opacity="0.5" stroke="#334155" stroke-width="0.8"/>
+    <text x="14" y="24" fill="#38BDF8" font-family="'JetBrains Mono', Consolas, monospace" font-size="11" font-weight="700">01 / AGENTIC &amp; AI</text>
+    <line x1="14" y1="32" x2="186" y2="32" stroke="#334155" stroke-width="0.8"/>
+    <text x="14" y="50" fill="#E2E8F0" font-family="-apple-system, BlinkMacSystemFont, sans-serif" font-size="11">Multi-Agent Orchestration</text>
+    <text x="14" y="68" fill="#E2E8F0" font-family="-apple-system, BlinkMacSystemFont, sans-serif" font-size="11">Model Context Protocol (MCP)</text>
+    <text x="14" y="86" fill="#E2E8F0" font-family="-apple-system, BlinkMacSystemFont, sans-serif" font-size="11">Dynamic DAG Execution</text>
+    <text x="14" y="104" fill="#E2E8F0" font-family="-apple-system, BlinkMacSystemFont, sans-serif" font-size="11">Context Compaction (~33% ↓)</text>
+    <text x="14" y="122" fill="#E2E8F0" font-family="-apple-system, BlinkMacSystemFont, sans-serif" font-size="11">Structured Schema Outputs</text>
+  </g>
+
+  <!-- Column 2: Backend & Distributed -->
+  <g transform="translate(242, 40)">
+    <rect width="200" height="142" rx="8" fill="#1E293B" fill-opacity="0.5" stroke="#334155" stroke-width="0.8"/>
+    <text x="14" y="24" fill="#34D399" font-family="'JetBrains Mono', Consolas, monospace" font-size="11" font-weight="700">02 / BACKEND SYSTEMS</text>
+    <line x1="14" y1="32" x2="186" y2="32" stroke="#334155" stroke-width="0.8"/>
+    <text x="14" y="50" fill="#E2E8F0" font-family="-apple-system, BlinkMacSystemFont, sans-serif" font-size="11">Python 3.12+ / asyncio</text>
+    <text x="14" y="68" fill="#E2E8F0" font-family="-apple-system, BlinkMacSystemFont, sans-serif" font-size="11">FastAPI &amp; Pydantic v2</text>
+    <text x="14" y="86" fill="#E2E8F0" font-family="-apple-system, BlinkMacSystemFont, sans-serif" font-size="11">PostgreSQL &amp; SQLAlchemy</text>
+    <text x="14" y="104" fill="#E2E8F0" font-family="-apple-system, BlinkMacSystemFont, sans-serif" font-size="11">Redis Caching &amp; Queues</text>
+    <text x="14" y="122" fill="#E2E8F0" font-family="-apple-system, BlinkMacSystemFont, sans-serif" font-size="11">Durable State Machines</text>
+  </g>
+
+  <!-- Column 3: Reliability & Gateway -->
+  <g transform="translate(460, 40)">
+    <rect width="200" height="142" rx="8" fill="#1E293B" fill-opacity="0.5" stroke="#334155" stroke-width="0.8"/>
+    <text x="14" y="24" fill="#A78BFA" font-family="'JetBrains Mono', Consolas, monospace" font-size="11" font-weight="700">03 / RESILIENCE &amp; GATEWAY</text>
+    <line x1="14" y1="32" x2="186" y2="32" stroke="#334155" stroke-width="0.8"/>
+    <text x="14" y="50" fill="#E2E8F0" font-family="-apple-system, BlinkMacSystemFont, sans-serif" font-size="11">Deterministic Model Routing</text>
+    <text x="14" y="68" fill="#E2E8F0" font-family="-apple-system, BlinkMacSystemFont, sans-serif" font-size="11">Shared Cooldown States</text>
+    <text x="14" y="86" fill="#E2E8F0" font-family="-apple-system, BlinkMacSystemFont, sans-serif" font-size="11">Streaming Commitment Safety</text>
+    <text x="14" y="104" fill="#E2E8F0" font-family="-apple-system, BlinkMacSystemFont, sans-serif" font-size="11">Bounded Failure Retries</text>
+    <text x="14" y="122" fill="#E2E8F0" font-family="-apple-system, BlinkMacSystemFont, sans-serif" font-size="11">Rate-Limit Circuit Breakers</text>
+  </g>
+
+  <!-- Column 4: Platform & Operations -->
+  <g transform="translate(678, 40)">
+    <rect width="198" height="142" rx="8" fill="#1E293B" fill-opacity="0.5" stroke="#334155" stroke-width="0.8"/>
+    <text x="14" y="24" fill="#FB7185" font-family="'JetBrains Mono', Consolas, monospace" font-size="11" font-weight="700">04 / PLATFORM &amp; OPS</text>
+    <line x1="14" y1="32" x2="184" y2="32" stroke="#334155" stroke-width="0.8"/>
+    <text x="14" y="50" fill="#E2E8F0" font-family="-apple-system, BlinkMacSystemFont, sans-serif" font-size="11">Docker &amp; Multi-stage Builds</text>
+    <text x="14" y="68" fill="#E2E8F0" font-family="-apple-system, BlinkMacSystemFont, sans-serif" font-size="11">GitHub Actions CI/CD</text>
+    <text x="14" y="86" fill="#E2E8F0" font-family="-apple-system, BlinkMacSystemFont, sans-serif" font-size="11">AWS &amp; Cloud Deployments</text>
+    <text x="14" y="104" fill="#E2E8F0" font-family="-apple-system, BlinkMacSystemFont, sans-serif" font-size="11">Automated E2E Verification</text>
+    <text x="14" y="122" fill="#E2E8F0" font-family="-apple-system, BlinkMacSystemFont, sans-serif" font-size="11">Structured Tracing &amp; Logs</text>
+  </g>
+</svg>

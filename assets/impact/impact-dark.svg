@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="100%" height="130" viewBox="0 0 900 130" fill="none">
+  <defs>
+    <linearGradient id="cardBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0F172A"/>
+      <stop offset="100%" stop-color="#090D1A"/>
+    </linearGradient>
+    <linearGradient id="statCyan" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#38BDF8"/>
+      <stop offset="100%" stop-color="#7DD3FC"/>
+    </linearGradient>
+    <linearGradient id="statEmerald" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#34D399"/>
+      <stop offset="100%" stop-color="#6EE7B7"/>
+    </linearGradient>
+    <linearGradient id="statViolet" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#A78BFA"/>
+      <stop offset="100%" stop-color="#C4B5FD"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Bento Cell 1 -->
+  <g transform="translate(0, 0)">
+    <rect width="288" height="130" rx="12" fill="url(#cardBg)"/>
+    <rect x="1" y="1" width="286" height="128" rx="11" stroke="#1E293B" stroke-width="1"/>
+    <rect x="4" y="4" width="280" height="122" rx="9" stroke="#38BDF8" stroke-opacity="0.15" stroke-width="1"/>
+    <text x="20" y="42" fill="url(#statCyan)" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="28" font-weight="800" letter-spacing="-0.5">30–40% ↓</text>
+    <text x="20" y="66" fill="#F8FAFC" font-family="'JetBrains Mono', Consolas, monospace" font-size="11" font-weight="700" letter-spacing="1">WORKFLOW LATENCY</text>
+    <text x="20" y="88" fill="#94A3B8" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="11">Transitioned linear chains to dependency-</text>
+    <text x="20" y="104" fill="#94A3B8" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="11">aware DAG scheduling &amp; bounded recovery.</text>
+  </g>
+
+  <!-- Bento Cell 2 -->
+  <g transform="translate(306, 0)">
+    <rect width="288" height="130" rx="12" fill="url(#cardBg)"/>
+    <rect x="1" y="1" width="286" height="128" rx="11" stroke="#1E293B" stroke-width="1"/>
+    <rect x="4" y="4" width="280" height="122" rx="9" stroke="#34D399" stroke-opacity="0.15" stroke-width="1"/>
+    <text x="20" y="42" fill="url(#statEmerald)" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="28" font-weight="800" letter-spacing="-0.5">73% ↓</text>
+    <text x="20" y="66" fill="#F8FAFC" font-family="'JetBrains Mono', Consolas, monospace" font-size="11" font-weight="700" letter-spacing="1">CODE GEN ERRORS</text>
+    <text x="20" y="88" fill="#94A3B8" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="11">Engineered relationship-aware context &amp;</text>
+    <text x="20" y="104" fill="#94A3B8" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="11">AST validation guards vs naive RAG chunks.</text>
+  </g>
+
+  <!-- Bento Cell 3 -->
+  <g transform="translate(612, 0)">
+    <rect width="288" height="130" rx="12" fill="url(#cardBg)"/>
+    <rect x="1" y="1" width="286" height="128" rx="11" stroke="#1E293B" stroke-width="1"/>
+    <rect x="4" y="4" width="280" height="122" rx="9" stroke="#A78BFA" stroke-opacity="0.15" stroke-width="1"/>
+    <text x="20" y="42" fill="url(#statViolet)" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="28" font-weight="800" letter-spacing="-0.5">~33% ↓</text>
+    <text x="20" y="66" fill="#F8FAFC" font-family="'JetBrains Mono', Consolas, monospace" font-size="11" font-weight="700" letter-spacing="1">TOKEN OVERHEAD</text>
+    <text x="20" y="88" fill="#94A3B8" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="11">Reduced context from 95K → 63.4K tokens</text>
+    <text x="20" y="104" fill="#94A3B8" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="11">while strictly preserving validation schemas.</text>
+  </g>
+</svg>

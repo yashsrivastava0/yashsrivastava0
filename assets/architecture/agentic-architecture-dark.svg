@@ -1,0 +1,96 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="100%" height="160" viewBox="0 0 900 160" fill="none">
+  <defs>
+    <linearGradient id="nodeBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0F172A"/>
+      <stop offset="100%" stop-color="#090D1A"/>
+    </linearGradient>
+    <linearGradient id="flowLineGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#38BDF8"/>
+      <stop offset="50%" stop-color="#818CF8"/>
+      <stop offset="100%" stop-color="#38BDF8"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Canvas Container with Double-Bezel -->
+  <rect width="900" height="160" rx="12" fill="#060913"/>
+  <rect x="1" y="1" width="898" height="158" rx="11" stroke="#1E293B" stroke-width="1"/>
+  <rect x="5" y="5" width="890" height="150" rx="9" stroke="#38BDF8" stroke-opacity="0.15" stroke-width="1"/>
+
+  <!-- Section Label -->
+  <g transform="translate(24, 24)">
+    <text x="0" y="0" fill="#38BDF8" font-family="'JetBrains Mono', Consolas, monospace" font-size="10" font-weight="700" letter-spacing="1.5">01 // AUTONOMOUS AGENTIC ARCHITECTURE &amp; RECOVERY LOOP</text>
+  </g>
+
+  <!-- Flow Track Line behind nodes -->
+  <line x1="80" y1="92" x2="820" y2="92" stroke="#1E293B" stroke-width="2"/>
+  <line x1="80" y1="92" x2="820" y2="92" stroke="url(#flowLineGrad)" stroke-width="1.8" stroke-dasharray="8 12">
+    <animate attributeName="stroke-dashoffset" from="40" to="0" dur="4s" repeatCount="indefinite"/>
+  </line>
+
+  <!-- NODE 1: Ingestion -->
+  <g transform="translate(24, 46)">
+    <rect width="150" height="92" rx="8" fill="url(#nodeBg)" stroke="#334155" stroke-width="1"/>
+    <rect x="10" y="10" width="22" height="16" rx="4" fill="#0284C7" fill-opacity="0.2"/>
+    <text x="14" y="22" fill="#38BDF8" font-family="'JetBrains Mono', Consolas, monospace" font-size="9" font-weight="700">01</text>
+    <text x="38" y="22" fill="#F8FAFC" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="11" font-weight="700">Intent &amp; Plan</text>
+    <text x="12" y="44" fill="#94A3B8" font-family="'JetBrains Mono', Consolas, monospace" font-size="8.5">Dynamic DAG</text>
+    <text x="12" y="58" fill="#94A3B8" font-family="'JetBrains Mono', Consolas, monospace" font-size="8.5">Task Routing</text>
+    <text x="12" y="72" fill="#38BDF8" font-family="'JetBrains Mono', Consolas, monospace" font-size="8.5">Spec Validation</text>
+  </g>
+
+  <!-- Connector 1 -->
+  <polygon points="186,92 180,88 180,96" fill="#38BDF8"/>
+
+  <!-- NODE 2: Context & Memory -->
+  <g transform="translate(196, 46)">
+    <rect width="150" height="92" rx="8" fill="url(#nodeBg)" stroke="#334155" stroke-width="1"/>
+    <rect x="10" y="10" width="22" height="16" rx="4" fill="#0284C7" fill-opacity="0.2"/>
+    <text x="14" y="22" fill="#38BDF8" font-family="'JetBrains Mono', Consolas, monospace" font-size="9" font-weight="700">02</text>
+    <text x="38" y="22" fill="#F8FAFC" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="11" font-weight="700">Context Mesh</text>
+    <text x="12" y="44" fill="#94A3B8" font-family="'JetBrains Mono', Consolas, monospace" font-size="8.5">Semantic Graph</text>
+    <text x="12" y="58" fill="#94A3B8" font-family="'JetBrains Mono', Consolas, monospace" font-size="8.5">~33% Token Prune</text>
+    <text x="12" y="72" fill="#38BDF8" font-family="'JetBrains Mono', Consolas, monospace" font-size="8.5">Durable State</text>
+  </g>
+
+  <!-- Connector 2 -->
+  <polygon points="358,92 352,88 352,96" fill="#38BDF8"/>
+
+  <!-- NODE 3: Bounded MCP Tools -->
+  <g transform="translate(368, 46)">
+    <rect width="154" height="92" rx="8" fill="url(#nodeBg)" stroke="#38BDF8" stroke-opacity="0.5" stroke-width="1.2"/>
+    <rect x="10" y="10" width="22" height="16" rx="4" fill="#0284C7" fill-opacity="0.3"/>
+    <text x="14" y="22" fill="#38BDF8" font-family="'JetBrains Mono', Consolas, monospace" font-size="9" font-weight="700">03</text>
+    <text x="38" y="22" fill="#F8FAFC" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="11" font-weight="700">MCP Tool Box</text>
+    <text x="12" y="44" fill="#94A3B8" font-family="'JetBrains Mono', Consolas, monospace" font-size="8.5">Strict Boundaries</text>
+    <text x="12" y="58" fill="#94A3B8" font-family="'JetBrains Mono', Consolas, monospace" font-size="8.5">Human Gateways</text>
+    <text x="12" y="72" fill="#38BDF8" font-family="'JetBrains Mono', Consolas, monospace" font-size="8.5">Async Workers</text>
+  </g>
+
+  <!-- Connector 3 -->
+  <polygon points="534,92 528,88 528,96" fill="#38BDF8"/>
+
+  <!-- NODE 4: Verification & Heals -->
+  <g transform="translate(544, 46)">
+    <rect width="150" height="92" rx="8" fill="url(#nodeBg)" stroke="#334155" stroke-width="1"/>
+    <rect x="10" y="10" width="22" height="16" rx="4" fill="#0284C7" fill-opacity="0.2"/>
+    <text x="14" y="22" fill="#38BDF8" font-family="'JetBrains Mono', Consolas, monospace" font-size="9" font-weight="700">04</text>
+    <text x="38" y="22" fill="#F8FAFC" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="11" font-weight="700">Self-Recovery</text>
+    <text x="12" y="44" fill="#94A3B8" font-family="'JetBrains Mono', Consolas, monospace" font-size="8.5">Schema Validate</text>
+    <text x="12" y="58" fill="#94A3B8" font-family="'JetBrains Mono', Consolas, monospace" font-size="8.5">Bounded Retries</text>
+    <text x="12" y="72" fill="#38BDF8" font-family="'JetBrains Mono', Consolas, monospace" font-size="8.5">Zero Data Loss</text>
+  </g>
+
+  <!-- Connector 4 -->
+  <polygon points="706,92 700,88 700,96" fill="#38BDF8"/>
+
+  <!-- NODE 5: Production Gateway -->
+  <g transform="translate(716, 46)">
+    <rect width="160" height="92" rx="8" fill="url(#nodeBg)" stroke="#334155" stroke-width="1"/>
+    <rect x="10" y="10" width="22" height="16" rx="4" fill="#0284C7" fill-opacity="0.2"/>
+    <text x="14" y="22" fill="#38BDF8" font-family="'JetBrains Mono', Consolas, monospace" font-size="9" font-weight="700">05</text>
+    <text x="38" y="22" fill="#F8FAFC" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="11" font-weight="700">Production</text>
+    <text x="12" y="44" fill="#94A3B8" font-family="'JetBrains Mono', Consolas, monospace" font-size="8.5">FastAPI Runtime</text>
+    <text x="12" y="58" fill="#94A3B8" font-family="'JetBrains Mono', Consolas, monospace" font-size="8.5">PostgreSQL State</text>
+    <text x="12" y="72" fill="#38BDF8" font-family="'JetBrains Mono', Consolas, monospace" font-size="8.5">Docker / Live CI</text>
+  </g>
+</svg>

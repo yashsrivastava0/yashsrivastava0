@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="100%" height="136" viewBox="0 0 900 136" fill="none">
+  <defs>
+    <linearGradient id="projBgMeshLight" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFFFFF"/>
+      <stop offset="100%" stop-color="#F8FAFC"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="900" height="136" rx="12" fill="url(#projBgMeshLight)"/>
+  <rect x="1" y="1" width="898" height="134" rx="11" stroke="#CBD5E1" stroke-width="1"/>
+  <rect x="5" y="5" width="890" height="126" rx="9" stroke="#059669" stroke-opacity="0.25" stroke-width="1"/>
+
+  <!-- Left Content -->
+  <g transform="translate(24, 24)">
+    <rect x="0" y="0" width="100" height="20" rx="4" fill="#D1FAE5" stroke="#059669" stroke-width="0.8"/>
+    <text x="8" y="14" fill="#059669" font-family="'JetBrains Mono', Consolas, monospace" font-size="9" font-weight="700">★ SYSTEMS_02</text>
+
+    <text x="114" y="16" fill="#0F172A" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="20" font-weight="800">QuotaMesh</text>
+    <text x="238" y="16" fill="#64748B" font-family="'JetBrains Mono', Consolas, monospace" font-size="11">alpha // High-Throughput Gateway</text>
+
+    <text x="0" y="44" fill="#1E293B" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13" font-weight="600">
+      Local AI API Capacity &amp; Resilience Gateway
+    </text>
+    <text x="0" y="64" fill="#475569" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11.5">
+      Deterministic model routing with shared cooldown states, graceful rate-limit failovers, streaming commitment protection, and durable concurrency policies.
+    </text>
+
+    <!-- Tech Tags -->
+    <g transform="translate(0, 80)">
+      <rect x="0" y="0" width="60" height="18" rx="4" fill="#F1F5F9" stroke="#CBD5E1" stroke-width="0.8"/>
+      <text x="8" y="13" fill="#0F172A" font-family="'JetBrains Mono', monospace" font-size="9.5">Python</text>
+      
+      <rect x="68" y="0" width="112" height="18" rx="4" fill="#F1F5F9" stroke="#CBD5E1" stroke-width="0.8"/>
+      <text x="76" y="13" fill="#0F172A" font-family="'JetBrains Mono', monospace" font-size="9.5">Policy Routing</text>
+
+      <rect x="188" y="0" width="110" height="18" rx="4" fill="#F1F5F9" stroke="#CBD5E1" stroke-width="0.8"/>
+      <text x="196" y="13" fill="#0F172A" font-family="'JetBrains Mono', monospace" font-size="9.5">Shared Cooldown</text>
+
+      <rect x="306" y="0" width="134" height="18" rx="4" fill="#F1F5F9" stroke="#CBD5E1" stroke-width="0.8"/>
+      <text x="314" y="13" fill="#0F172A" font-family="'JetBrains Mono', monospace" font-size="9.5">Streaming Resiliency</text>
+    </g>
+  </g>
+
+  <!-- Right Trailing Arrow -->
+  <g transform="translate(840, 68)">
+    <circle cx="0" cy="0" r="16" fill="#F1F5F9" stroke="#059669" stroke-width="1"/>
+    <path d="M-4 -4 L4 0 L-4 4" stroke="#0F172A" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+</svg>

@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="100%" height="136" viewBox="0 0 900 136" fill="none">
+  <defs>
+    <linearGradient id="projBgLight" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFFFFF"/>
+      <stop offset="100%" stop-color="#F8FAFC"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="900" height="136" rx="12" fill="url(#projBgLight)"/>
+  <rect x="1" y="1" width="898" height="134" rx="11" stroke="#CBD5E1" stroke-width="1"/>
+  <rect x="5" y="5" width="890" height="126" rx="9" stroke="#0284C7" stroke-opacity="0.25" stroke-width="1"/>
+
+  <!-- Left Icon & Type -->
+  <g transform="translate(24, 24)">
+    <!-- Flagship Pill -->
+    <rect x="0" y="0" width="100" height="20" rx="4" fill="#E0F2FE" stroke="#0284C7" stroke-width="0.8"/>
+    <text x="8" y="14" fill="#0284C7" font-family="'JetBrains Mono', Consolas, monospace" font-size="9" font-weight="700">★ FLAGSHIP_01</text>
+
+    <!-- Title -->
+    <text x="114" y="16" fill="#0F172A" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="20" font-weight="800">OryxenAI</text>
+    <text x="218" y="16" fill="#64748B" font-family="'JetBrains Mono', Consolas, monospace" font-size="11">v1.2 // Production Ready</text>
+
+    <!-- Description -->
+    <text x="0" y="44" fill="#1E293B" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13" font-weight="600">
+      Autonomous Agentic Workspace &amp; Delivery System
+    </text>
+    <text x="0" y="64" fill="#475569" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11.5">
+      Converts fragmented intent into validated, multi-stage software artifacts via persistent DAG workers, human-approval boundaries, and sandboxed preview environments.
+    </text>
+
+    <!-- Tech Tags -->
+    <g transform="translate(0, 80)">
+      <rect x="0" y="0" width="60" height="18" rx="4" fill="#F1F5F9" stroke="#CBD5E1" stroke-width="0.8"/>
+      <text x="8" y="13" fill="#0F172A" font-family="'JetBrains Mono', monospace" font-size="9.5">Python</text>
+      
+      <rect x="68" y="0" width="66" height="18" rx="4" fill="#F1F5F9" stroke="#CBD5E1" stroke-width="0.8"/>
+      <text x="76" y="13" fill="#0F172A" font-family="'JetBrains Mono', monospace" font-size="9.5">FastAPI</text>
+
+      <rect x="142" y="0" width="94" height="18" rx="4" fill="#F1F5F9" stroke="#CBD5E1" stroke-width="0.8"/>
+      <text x="150" y="13" fill="#0F172A" font-family="'JetBrains Mono', monospace" font-size="9.5">PostgreSQL</text>
+
+      <rect x="244" y="0" width="102" height="18" rx="4" fill="#F1F5F9" stroke="#CBD5E1" stroke-width="0.8"/>
+      <text x="252" y="13" fill="#0F172A" font-family="'JetBrains Mono', monospace" font-size="9.5">Docker CI/CD</text>
+
+      <rect x="354" y="0" width="138" height="18" rx="4" fill="#F1F5F9" stroke="#CBD5E1" stroke-width="0.8"/>
+      <text x="362" y="13" fill="#0F172A" font-family="'JetBrains Mono', monospace" font-size="9.5">Human Checkpoints</text>
+    </g>
+  </g>
+
+  <!-- Right Trailing Arrow -->
+  <g transform="translate(840, 68)">
+    <circle cx="0" cy="0" r="16" fill="#F1F5F9" stroke="#0284C7" stroke-width="1"/>
+    <path d="M-4 -4 L4 0 L-4 4" stroke="#0F172A" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+</svg>

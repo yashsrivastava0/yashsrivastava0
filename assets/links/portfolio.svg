@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="140" height="34" viewBox="0 0 140 34" fill="none">
+  <defs>
+    <linearGradient id="btnGrad" x1="0" y1="0" x2="140" y2="34" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#1E293B"/>
+      <stop offset="100%" stop-color="#0F172A"/>
+    </linearGradient>
+    <linearGradient id="borderGrad" x1="0" y1="0" x2="140" y2="34" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#38BDF8" stop-opacity="0.6"/>
+      <stop offset="100%" stop-color="#94A3B8" stop-opacity="0.2"/>
+    </linearGradient>
+  </defs>
+  <rect x="0.5" y="0.5" width="139" height="33" rx="16.5" fill="url(#btnGrad)"/>
+  <rect x="0.5" y="0.5" width="139" height="33" rx="16.5" stroke="url(#borderGrad)"/>
+  <!-- Globe / Portfolio Icon -->
+  <g transform="translate(14, 9)">
+    <circle cx="8" cy="8" r="7" stroke="#38BDF8" stroke-width="1.4" fill="none"/>
+    <ellipse cx="8" cy="8" rx="3.2" ry="7" stroke="#38BDF8" stroke-width="1.3" fill="none"/>
+    <line x1="1" y1="8" x2="15" y2="8" stroke="#38BDF8" stroke-width="1.3"/>
+  </g>
+  <text x="40" y="21" fill="#F8FAFC" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" font-weight="600" letter-spacing="0.3">Portfolio</text>
+  <!-- Arrow -->
+  <path d="M118 14L123 17L118 20" stroke="#94A3B8" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
