@@ -71,61 +71,17 @@ I build production AI systems around agents, context, memory, tools and reliable
 
 <br />
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/editorial/divider-rule-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="./assets/editorial/divider-rule-light.svg">
-  <img src="./assets/editorial/divider-rule-dark.svg" width="100%" alt="" />
-</picture>
-
-## Selected Production Measurements
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/measurements/impact-strip-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="./assets/measurements/impact-strip-light.svg">
-  <img src="./assets/measurements/impact-strip-dark.svg" width="100%" alt="Selected Production Measurements" />
-</picture>
-
-<br />
-
-* **30–40% ↓ estimated workflow time:** Measured after moving AI workflows from linear execution toward dependency-aware parallel execution and bounded recovery.
-* **73% ↓ code-generation errors:** Measured from relationship-aware context assembly versus earlier RAG approaches in production testing.
-* **~33% ↓ representative context size:** Reduced from ~95K to ~63.4K tokens while retaining validation, permission, and compliance constraints.
-
-<br />
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/editorial/divider-rule-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="./assets/editorial/divider-rule-light.svg">
-  <img src="./assets/editorial/divider-rule-dark.svg" width="100%" alt="" />
-</picture>
-
 ## Production Experience
 
-### Xpression — Founding AI Engineer
-`Oct 2025 → Present`
+**Xpression — Founding AI Engineer** &nbsp;·&nbsp; `Oct 2025 → Present`  
+* Architecting an AI SDLC platform; owning delivery on a 6-person team.
+* Engineered multi-agent orchestration, checkpointed state recovery, relationship-aware context, and FastAPI/PostgreSQL workers.
 
-Architecting an AI-powered SDLC platform turning product specifications into deployed full-stack applications.
+**JUTEQ Inc — AI Engineer** &nbsp;·&nbsp; `Jul 2025 → Oct 2025`  
+* Built client-facing conversational automation, browser-driven workflows, and dealership booking integrations.
 
-* Own architecture-to-production delivery on a six-person team, working directly with founders.
-* Built multi-agent orchestration, dependency scheduling, checkpointed state machines, and partial-failure recovery.
-* Engineered relationship-aware context assembly, long-horizon memory, model routing, and structured schema outputs.
-* Delivered FastAPI backends, PostgreSQL worker queues, real-time events, container testing, and CI/CD pipelines.
-
-<br />
-
-### JUTEQ Inc — AI Engineer
-`Jul 2025 → Oct 2025`
-
-* Owned client-facing AI delivery for automotive dealerships from requirements through production iteration.
-* Built conversational automation, browser-driven workflows, and dealership booking integrations.
-
-<br />
-
-### Indian Institute of Technology, Mandi — Backend Developer Intern & Researcher
-`Jan 2024 → Jun 2024`
-
-* Contributed to the HIMCOSTE-sponsored Smart Blood, Vaccine & Medicine Monitoring System.
-* Worked on sensor-data architecture, PostgreSQL setup, and backend services validating and serving real-time Arduino and ESP sensor streams.
+**IIT Mandi — Backend Developer Intern & Researcher** &nbsp;·&nbsp; `Jan 2024 → Jun 2024`  
+* Developed sensor-data architecture and PostgreSQL validation backend for real-time IoT monitoring (HIMCOSTE).
 
 <br />
 
