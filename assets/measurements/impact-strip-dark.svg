@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="100%" height="95" viewBox="0 0 900 95" fill="none">
+  <defs>
+    <linearGradient id="stripDarkBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#141416"/>
+      <stop offset="100%" stop-color="#0E0E10"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Base Border Container -->
+  <rect width="900" height="95" fill="url(#stripDarkBg)"/>
+  <rect x="0.5" y="0.5" width="899" height="94" stroke="#26262B" stroke-width="1"/>
+
+  <!-- Column 1: Workflow Time (Width 280) -->
+  <g transform="translate(32, 22)">
+    <text x="0" y="24" fill="#F1F5F9" font-family="-apple-system, BlinkMacSystemFont, sans-serif" font-size="24" font-weight="800" letter-spacing="-0.5">30–40% ↓</text>
+    <text x="0" y="44" fill="#A1A1AA" font-family="'JetBrains Mono', Consolas, monospace" font-size="9.5" font-weight="600" letter-spacing="0.5">ESTIMATED WORKFLOW TIME</text>
+    <text x="0" y="58" fill="#71717A" font-family="-apple-system, sans-serif" font-size="9">Dependency-aware DAG scheduling vs linear execution</text>
+  </g>
+
+  <!-- Vertical Divider 1 -->
+  <line x1="310" y1="18" x2="310" y2="78" stroke="#27272A" stroke-width="1"/>
+
+  <!-- Column 2: Code Gen Errors (Width 280) -->
+  <g transform="translate(334, 22)">
+    <text x="0" y="24" fill="#F1F5F9" font-family="-apple-system, BlinkMacSystemFont, sans-serif" font-size="24" font-weight="800" letter-spacing="-0.5">73% ↓</text>
+    <text x="0" y="44" fill="#A1A1AA" font-family="'JetBrains Mono', Consolas, monospace" font-size="9.5" font-weight="600" letter-spacing="0.5">CODE-GENERATION ERRORS</text>
+    <text x="0" y="58" fill="#71717A" font-family="-apple-system, sans-serif" font-size="9">Relationship-aware context vs earlier RAG in prod testing</text>
+  </g>
+
+  <!-- Vertical Divider 2 -->
+  <line x1="616" y1="18" x2="616" y2="78" stroke="#27272A" stroke-width="1"/>
+
+  <!-- Column 3: Context Size (Width 250) -->
+  <g transform="translate(640, 22)">
+    <text x="0" y="24" fill="#F1F5F9" font-family="-apple-system, BlinkMacSystemFont, sans-serif" font-size="24" font-weight="800" letter-spacing="-0.5">~33% ↓</text>
+    <text x="0" y="44" fill="#A1A1AA" font-family="'JetBrains Mono', Consolas, monospace" font-size="9.5" font-weight="600" letter-spacing="0.5">REPRESENTATIVE CONTEXT SIZE</text>
+    <text x="0" y="58" fill="#71717A" font-family="-apple-system, sans-serif" font-size="9">Context footprint reduction (~95K → ~63.4K tokens)</text>
+  </g>
+</svg>

@@ -1,0 +1,110 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="100%" height="230" viewBox="0 0 900 230" fill="none">
+  <defs>
+    <linearGradient id="oxDarkBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#141416"/>
+      <stop offset="100%" stop-color="#0E0E10"/>
+    </linearGradient>
+    <linearGradient id="previewBgDark" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1C1C22"/>
+      <stop offset="100%" stop-color="#141418"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Container Base -->
+  <rect width="900" height="230" fill="url(#oxDarkBg)"/>
+  <rect x="0.5" y="0.5" width="899" height="229" stroke="#26262B" stroke-width="1"/>
+
+  <!-- Top Title / Registration -->
+  <g transform="translate(24, 24)">
+    <text x="0" y="0" fill="#EAE8E4" font-family="'JetBrains Mono', Consolas, monospace" font-size="11" font-weight="700" letter-spacing="1.5">01 // ORYXENAI  —  PRODUCT TRANSFORMATION WORKFLOW</text>
+  </g>
+
+  <!-- 1. LEFT PANEL: Raw Background Material (Width 190) -->
+  <g transform="translate(24, 44)">
+    <rect width="190" height="162" fill="#18181C" stroke="#2A2A32" stroke-width="1"/>
+    <text x="16" y="24" fill="#A1A1AA" font-family="'JetBrains Mono', Consolas, monospace" font-size="9.5" font-weight="700" letter-spacing="1">RAW BACKGROUND</text>
+    <line x1="16" y1="32" x2="174" y2="32" stroke="#2A2A32" stroke-width="1"/>
+    
+    <text x="16" y="54" fill="#EAE8E4" font-family="-apple-system, BlinkMacSystemFont, sans-serif" font-size="11">• Resume &amp; Experience</text>
+    <text x="16" y="78" fill="#EAE8E4" font-family="-apple-system, BlinkMacSystemFont, sans-serif" font-size="11">• Project Records</text>
+    <text x="16" y="102" fill="#38BDF8" font-family="-apple-system, BlinkMacSystemFont, sans-serif" font-size="11">• Achievements / Outcomes</text>
+    <text x="16" y="126" fill="#EAE8E4" font-family="-apple-system, BlinkMacSystemFont, sans-serif" font-size="11">• Notes &amp; Context</text>
+
+    <!-- Source File Mock lines -->
+    <rect x="16" y="142" width="70" height="4" fill="#3F3F46"/>
+    <rect x="92" y="142" width="50" height="4" fill="#27272A"/>
+  </g>
+
+  <!-- Flow Connector 1 -->
+  <g transform="translate(222, 125)">
+    <line x1="0" y1="0" x2="18" y2="0" stroke="#52525B" stroke-width="1.5"/>
+    <polygon points="18,-3 24,0 18,3" fill="#52525B"/>
+  </g>
+
+  <!-- 2. CENTER PANEL: Staged Approval Pipeline (Width 210) -->
+  <g transform="translate(254, 44)">
+    <rect width="210" height="162" fill="#18181C" stroke="#2A2A32" stroke-width="1"/>
+    <text x="16" y="24" fill="#A1A1AA" font-family="'JetBrains Mono', Consolas, monospace" font-size="9.5" font-weight="700" letter-spacing="1">STAGED APPROVALS</text>
+    <line x1="16" y1="32" x2="194" y2="32" stroke="#2A2A32" stroke-width="1"/>
+
+    <!-- Stage 1 -->
+    <rect x="14" y="42" width="182" height="30" fill="#1F1F26" stroke="#33333F" stroke-width="0.8"/>
+    <text x="24" y="58" fill="#EAE8E4" font-family="'JetBrains Mono', Consolas, monospace" font-size="10" font-weight="600">01 Explorer Agent</text>
+    <text x="24" y="68" fill="#71717A" font-family="-apple-system, sans-serif" font-size="8.5">Verified background brief</text>
+
+    <!-- Stage 2 -->
+    <rect x="14" y="78" width="182" height="30" fill="#1F1F26" stroke="#33333F" stroke-width="0.8"/>
+    <text x="24" y="94" fill="#EAE8E4" font-family="'JetBrains Mono', Consolas, monospace" font-size="10" font-weight="600">02 Content Architect</text>
+    <text x="24" y="104" fill="#71717A" font-family="-apple-system, sans-serif" font-size="8.5">Drafted &amp; approved copy</text>
+
+    <!-- Stage 3 -->
+    <rect x="14" y="114" width="182" height="36" fill="#1F1F26" stroke="#38BDF8" stroke-opacity="0.4" stroke-width="1"/>
+    <text x="24" y="130" fill="#38BDF8" font-family="'JetBrains Mono', Consolas, monospace" font-size="10" font-weight="700">03 Studio Sandbox</text>
+    <text x="24" y="142" fill="#94A3B8" font-family="-apple-system, sans-serif" font-size="8.5">PostgreSQL state &amp; browser test</text>
+  </g>
+
+  <!-- Flow Connector 2 -->
+  <g transform="translate(472, 125)">
+    <line x1="0" y1="0" x2="18" y2="0" stroke="#38BDF8" stroke-width="1.5"/>
+    <polygon points="18,-3 24,0 18,3" fill="#38BDF8"/>
+  </g>
+
+  <!-- 3. RIGHT PANEL: DOMINANT EDITORIAL PORTFOLIO PREVIEW (Width 376 ~ 42%) -->
+  <g transform="translate(498, 44)">
+    <rect width="378" height="162" fill="url(#previewBgDark)" stroke="#38BDF8" stroke-opacity="0.3" stroke-width="1.2"/>
+    
+    <!-- Browser Header Bar -->
+    <rect width="378" height="20" fill="#18181E"/>
+    <circle cx="14" cy="10" r="3" fill="#3F3F46"/>
+    <circle cx="24" cy="10" r="3" fill="#3F3F46"/>
+    <circle cx="34" cy="10" r="3" fill="#3F3F46"/>
+    <text x="50" y="13" fill="#71717A" font-family="'JetBrains Mono', Consolas, monospace" font-size="8">https://app.oryxenai.me/preview/yash</text>
+
+    <!-- Portfolio Content Surface Mockup -->
+    <g transform="translate(20, 36)">
+      <!-- Name & Title -->
+      <text x="0" y="14" fill="#F8FAFC" font-family="-apple-system, BlinkMacSystemFont, sans-serif" font-size="14" font-weight="700">Yash Srivastava</text>
+      <text x="0" y="28" fill="#38BDF8" font-family="-apple-system, BlinkMacSystemFont, sans-serif" font-size="9" font-weight="500">AI Engineer · Agentic Systems · Production AI</text>
+      <line x1="0" y1="36" x2="338" y2="36" stroke="#27272A" stroke-width="1"/>
+
+      <!-- Work Cards in Mockup -->
+      <text x="0" y="52" fill="#A1A1AA" font-family="'JetBrains Mono', monospace" font-size="8" font-weight="700">SELECTED PRODUCTION WORK</text>
+      
+      <!-- Mini Mockup Card 1 -->
+      <rect x="0" y="60" width="162" height="48" fill="#101014" stroke="#27272A" stroke-width="0.8"/>
+      <text x="8" y="74" fill="#F8FAFC" font-family="-apple-system, sans-serif" font-size="9" font-weight="600">OryxenAI</text>
+      <text x="8" y="86" fill="#71717A" font-family="-apple-system, sans-serif" font-size="7.5">AI-Assisted Portfolio Workspace</text>
+      <text x="8" y="98" fill="#38BDF8" font-family="'JetBrains Mono', sans-serif" font-size="7">FastAPI · PostgreSQL · Preact</text>
+
+      <!-- Mini Mockup Card 2 -->
+      <rect x="172" y="60" width="162" height="48" fill="#101014" stroke="#27272A" stroke-width="0.8"/>
+      <text x="180" y="74" fill="#F8FAFC" font-family="-apple-system, sans-serif" font-size="9" font-weight="600">QuotaMesh</text>
+      <text x="180" y="86" fill="#71717A" font-family="-apple-system, sans-serif" font-size="7.5">AI API Capacity Gateway</text>
+      <text x="180" y="98" fill="#38BDF8" font-family="'JetBrains Mono', sans-serif" font-size="7">Policy · Shared Cooldown</text>
+    </g>
+
+    <!-- Dominant Output Stamp -->
+    <rect x="250" y="140" width="118" height="16" fill="#111116" stroke="#E11D48" stroke-width="0.8"/>
+    <text x="258" y="151" fill="#E11D48" font-family="'JetBrains Mono', Consolas, monospace" font-size="7.5" font-weight="700" letter-spacing="0.5">VALIDATED OUTPUT ↗</text>
+  </g>
+</svg>

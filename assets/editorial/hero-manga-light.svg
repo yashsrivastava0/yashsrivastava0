@@ -1,0 +1,68 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="100%" height="180" viewBox="0 0 900 180" fill="none">
+  <defs>
+    <!-- Warm Editorial Paper Base -->
+    <linearGradient id="paperBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FCFAF7"/>
+      <stop offset="50%" stop-color="#FAF7F3"/>
+      <stop offset="100%" stop-color="#F5F2EC"/>
+    </linearGradient>
+
+    <!-- Flowing Sumi & Steel Brush Stream -->
+    <linearGradient id="paperBrushStream" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#0284C7" stop-opacity="0.2"/>
+      <stop offset="35%" stop-color="#475569" stop-opacity="0.8"/>
+      <stop offset="65%" stop-color="#0F172A" stop-opacity="0.95"/>
+      <stop offset="85%" stop-color="#0284C7" stop-opacity="0.7"/>
+      <stop offset="100%" stop-color="#0284C7" stop-opacity="0"/>
+    </linearGradient>
+
+    <!-- Diagonal Wash for Paper -->
+    <linearGradient id="paperWash" x1="100%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#EBE7DE" stop-opacity="0.7"/>
+      <stop offset="100%" stop-color="#FAF7F3" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background Base Canvas -->
+  <rect width="900" height="180" fill="url(#paperBg)"/>
+  
+  <!-- Subtle Editorial Hairline Borders -->
+  <line x1="0" y1="1" x2="900" y2="1" stroke="#E5E0D6" stroke-width="1"/>
+  <line x1="0" y1="179" x2="900" y2="179" stroke="#E5E0D6" stroke-width="1"/>
+
+  <!-- Asymmetric Diagonal Ink Cuts (Right Field) -->
+  <path d="M520 0 L660 0 L580 180 L440 180 Z" fill="url(#paperWash)"/>
+  <path d="M680 0 L900 0 L820 180 L600 180 Z" fill="#E8E4DA"/>
+  <path d="M780 0 L900 0 L900 180 L720 180 Z" fill="#DED9CE"/>
+
+  <!-- Dynamic Ink / Manga Speed Hatching on Far Right -->
+  <g stroke="#C7C1B5" stroke-width="0.8" stroke-dasharray="3 6">
+    <line x1="740" y1="20" x2="880" y2="160"/>
+    <line x1="760" y1="10" x2="890" y2="140"/>
+    <line x1="720" y1="40" x2="850" y2="170"/>
+  </g>
+
+  <!-- Ultra Instinct Controlled Brush Curve across center -->
+  <path d="M120 140 C 280 135, 420 55, 620 50 C 740 47, 820 95, 880 70" 
+        stroke="url(#paperBrushStream)" stroke-width="3" stroke-linecap="round" fill="none"/>
+  
+  <path d="M220 148 C 360 142, 480 70, 680 62 C 780 58, 830 85, 870 78" 
+        stroke="#64748B" stroke-opacity="0.3" stroke-width="1" stroke-linecap="round" fill="none"/>
+
+  <!-- Left Field Negative Space & Editorial Registration Mark -->
+  <g transform="translate(48, 50)">
+    <!-- Small [YS] Crimson Registration Seal -->
+    <rect x="0" y="0" width="28" height="28" rx="2" fill="#FDF2F4" stroke="#E11D48" stroke-width="1.2"/>
+    <text x="14" y="19" text-anchor="middle" fill="#E11D48" font-family="'JetBrains Mono', Consolas, monospace" font-size="12" font-weight="800" letter-spacing="1">YS</text>
+    
+    <!-- Editorial Technical Spec Annotation -->
+    <text x="38" y="12" fill="#78716C" font-family="'JetBrains Mono', Consolas, monospace" font-size="9" letter-spacing="1.5">PRODUCTION NOTES // 2026</text>
+    <text x="38" y="24" fill="#44403C" font-family="'JetBrains Mono', Consolas, monospace" font-size="9" letter-spacing="1">SYSTEM PRECISION UNDER LOAD</text>
+  </g>
+
+  <!-- Far Right Editorial Minimal Stamp -->
+  <g transform="translate(820, 140)">
+    <text x="0" y="0" fill="#78716C" font-family="'JetBrains Mono', Consolas, monospace" font-size="9" letter-spacing="1.5">MIGATTE // 01</text>
+    <line x1="0" y1="6" x2="48" y2="6" stroke="#0284C7" stroke-width="1.5"/>
+  </g>
+</svg>

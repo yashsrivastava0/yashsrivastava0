@@ -1,0 +1,76 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="100%" height="170" viewBox="0 0 900 170" fill="none">
+  <defs>
+    <linearGradient id="qmDarkBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#141416"/>
+      <stop offset="100%" stop-color="#0E0E10"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Container Base -->
+  <rect width="900" height="170" fill="url(#qmDarkBg)"/>
+  <rect x="0.5" y="0.5" width="899" height="169" stroke="#26262B" stroke-width="1"/>
+
+  <!-- Top Title / Registration -->
+  <g transform="translate(24, 22)">
+    <text x="0" y="0" fill="#EAE8E4" font-family="'JetBrains Mono', Consolas, monospace" font-size="11" font-weight="700" letter-spacing="1.5">02 // QUOTAMESH  —  API CAPACITY GATEWAY</text>
+    <rect x="360" y="-10" width="50" height="15" fill="#221C14" stroke="#D97706" stroke-width="0.8"/>
+    <text x="372" y="1" fill="#F59E0B" font-family="'JetBrains Mono', Consolas, monospace" font-size="8.5" font-weight="700">alpha</text>
+  </g>
+
+  <!-- Left: Client Inbound Requests (Width 220) -->
+  <g transform="translate(24, 42)">
+    <rect width="220" height="106" fill="#18181C" stroke="#2A2A32" stroke-width="1"/>
+    <text x="14" y="20" fill="#A1A1AA" font-family="'JetBrains Mono', Consolas, monospace" font-size="9" font-weight="700" letter-spacing="1">CLIENT TRAFFIC</text>
+    <line x1="14" y1="28" x2="206" y2="28" stroke="#2A2A32" stroke-width="1"/>
+    <text x="14" y="48" fill="#EAE8E4" font-family="-apple-system, sans-serif" font-size="11">• OpenAI-Compatible Traffic</text>
+    <text x="14" y="68" fill="#EAE8E4" font-family="-apple-system, sans-serif" font-size="11">• Async Streams &amp; Tool Calls</text>
+    <text x="14" y="88" fill="#71717A" font-family="'JetBrains Mono', monospace" font-size="9.5">POST /v1/chat/completions</text>
+  </g>
+
+  <!-- Flow Connector 1 -->
+  <g transform="translate(254, 95)">
+    <line x1="0" y1="0" x2="22" y2="0" stroke="#52525B" stroke-width="1.5"/>
+    <polygon points="22,-3 28,0 22,3" fill="#52525B"/>
+  </g>
+
+  <!-- Center: Routing & Cooldown Engine (Width 290) -->
+  <g transform="translate(290, 42)">
+    <rect width="290" height="106" fill="#18181C" stroke="#38BDF8" stroke-opacity="0.4" stroke-width="1.2"/>
+    <text x="16" y="20" fill="#38BDF8" font-family="'JetBrains Mono', Consolas, monospace" font-size="9.5" font-weight="700" letter-spacing="1">POLICY &amp; COOLDOWN MATRIX</text>
+    <line x1="16" y1="28" x2="274" y2="28" stroke="#2A2A32" stroke-width="1"/>
+    
+    <text x="16" y="48" fill="#EAE8E4" font-family="-apple-system, sans-serif" font-size="10.5">Deterministic Target Selection</text>
+    <text x="16" y="66" fill="#EAE8E4" font-family="-apple-system, sans-serif" font-size="10.5">Shared Cooldown State</text>
+    <text x="16" y="84" fill="#EAE8E4" font-family="-apple-system, sans-serif" font-size="10.5">Streaming Commitment Semantics</text>
+    <text x="16" y="100" fill="#71717A" font-family="-apple-system, sans-serif" font-size="9.5">Paid-Use Controls &amp; Metadata Tracking</text>
+  </g>
+
+  <!-- Flow Connector 2 -->
+  <g transform="translate(590, 95)">
+    <line x1="0" y1="0" x2="22" y2="0" stroke="#52525B" stroke-width="1.5"/>
+    <polygon points="22,-3 28,0 22,3" fill="#52525B"/>
+  </g>
+
+  <!-- Right: Upstream Provider Endpoints (Width 254) -->
+  <g transform="translate(622, 42)">
+    <rect width="254" height="106" fill="#18181C" stroke="#2A2A32" stroke-width="1"/>
+    
+    <!-- Provider A -->
+    <rect x="12" y="10" width="230" height="26" fill="#1F1F26" stroke="#27272A" stroke-width="0.8"/>
+    <circle cx="24" cy="23" r="3" fill="#10B981"/>
+    <text x="34" y="26" fill="#EAE8E4" font-family="'JetBrains Mono', monospace" font-size="9.5">Provider A</text>
+    <text x="146" y="26" fill="#10B981" font-family="'JetBrains Mono', monospace" font-size="8.5">ACTIVE [✓]</text>
+
+    <!-- Provider B -->
+    <rect x="12" y="40" width="230" height="26" fill="#1F1F26" stroke="#27272A" stroke-width="0.8"/>
+    <circle cx="24" cy="53" r="3" fill="#F59E0B"/>
+    <text x="34" y="56" fill="#EAE8E4" font-family="'JetBrains Mono', monospace" font-size="9.5">Provider B</text>
+    <text x="134" y="56" fill="#F59E0B" font-family="'JetBrains Mono', monospace" font-size="8.5">COOLDOWN [⏳]</text>
+
+    <!-- Provider C -->
+    <rect x="12" y="70" width="230" height="26" fill="#1F1F26" stroke="#27272A" stroke-width="0.8"/>
+    <circle cx="24" cy="83" r="3" fill="#EF4444"/>
+    <text x="34" y="86" fill="#EAE8E4" font-family="'JetBrains Mono', monospace" font-size="9.5">Provider C</text>
+    <text x="140" y="86" fill="#EF4444" font-family="'JetBrains Mono', monospace" font-size="8.5">BLOCKED [⛔]</text>
+  </g>
+</svg>
