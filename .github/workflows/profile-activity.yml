@@ -1,0 +1,49 @@
+name: Refresh profile activity
+
+on:
+  schedule:
+    - cron: "23 6 * * *"
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - scripts/update_activity.py
+      - tests/test_activity.py
+      - .github/workflows/profile-activity.yml
+
+permissions:
+  contents: write
+
+concurrency:
+  group: profile-activity
+  cancel-in-progress: false
+
+jobs:
+  refresh:
+    if: github.repository_owner == 'yashsrivastava0'
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - name: Check out the default branch
+        uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683 # v4.2.2
+        with:
+          ref: ${{ github.event.repository.default_branch }}
+
+      - name: Test calendar parsing and rendering
+        run: python3 -m unittest discover -s tests -v
+
+      - name: Refresh the dated activity snapshot
+        run: python3 scripts/update_activity.py --username yashsrivastava0
+
+      - name: Commit only generated activity files
+        run: |
+          set -eu
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add assets/profile/activity.json assets/profile/activity-dark.svg assets/profile/activity-light.svg assets/profile/activity-mobile-dark.svg assets/profile/activity-mobile-light.svg
+          if git diff --cached --quiet; then
+            echo "Activity is unchanged."
+            exit 0
+          fi
+          git commit -m "chore: refresh profile activity"
+          git push origin HEAD

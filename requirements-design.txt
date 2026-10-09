@@ -1,0 +1,2 @@
+# Optional: rebuild the committed visual assets. Activity refresh needs only Python.
+fonttools==4.61.1

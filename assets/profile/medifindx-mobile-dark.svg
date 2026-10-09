@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="400" height="90" viewBox="0 0 400 90" role="img" aria-labelledby="title">
+<title id="title">MediFindX / MULTIMODAL AI</title>
+<rect x=".5" y=".5" width="399" height="89" rx="10" fill="#111820" stroke="#2a3543"/>
+<path d="M16 22V68" stroke="#67e8f9" stroke-width="3"/>
+<text x="31" y="33" fill="#a4b1bf" font-family="Arial, Helvetica, sans-serif" font-size="11" font-weight="600" letter-spacing="1">03 / MULTIMODAL AI</text>
+<text x="31" y="66" fill="#eff5fa" font-family="Arial, Helvetica, sans-serif" font-size="28" font-weight="700">MediFindX</text>
+<path d="M305 45H320L327 35L337 58L347 27L357 51L365 45H378" stroke="#67e8f9" stroke-width="1.8" fill="none" stroke-linejoin="round"/><circle cx="378" cy="45" r="3" fill="#67e8f9"/>
+</svg>

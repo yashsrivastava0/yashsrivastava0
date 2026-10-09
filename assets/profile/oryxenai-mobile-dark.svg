@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="440" height="98" viewBox="0 0 440 98" role="img" aria-labelledby="title desc">
+<title id="title">OryxenAI</title><desc id="desc">Context / review / Studio. Decorative animated schematic; not a live status display.</desc>
+<style>
+.shimmer { animation: shimmer 14s linear infinite; }
+.aura { animation: aura 7s ease-in-out infinite; }
+.water { animation: water 16s linear infinite; }
+.spark { animation: spark 8s ease-in-out infinite; }
+.orbit { animation: orbit 16s linear infinite; transform-box:fill-box; transform-origin:center; }
+.packet { animation: packet 6s ease-in-out infinite; }
+.wave { animation: wave 2.8s ease-in-out infinite; transform-box:fill-box; transform-origin:center; }
+@keyframes shimmer { 0%,45% {transform:translateX(-650px)} 85%,100% {transform:translateX(1100px)} }
+@keyframes aura { 0%,100% {opacity:.18} 50% {opacity:.42} }
+@keyframes water { to {stroke-dashoffset:-240} }
+@keyframes spark { 0%,100% {opacity:.08;transform:translateY(0)} 50% {opacity:.55;transform:translateY(-8px)} }
+@keyframes orbit { to {transform:rotate(360deg)} }
+@keyframes packet { 0%,8% {opacity:0;transform:translate(0,0)} 18% {opacity:1;transform:translate(0,0)} 70% {opacity:1;transform:translate(70px,-16px)} 82%,100% {opacity:0;transform:translate(70px,-16px)} }
+@keyframes wave { 0%,100% {transform:scaleY(.3)} 50% {transform:scaleY(1)} }
+@media (prefers-reduced-motion:reduce) {
+ .shimmer,.aura,.water,.spark,.orbit,.packet,.wave {animation:none!important}
+ .shimmer {opacity:0!important}
+ .packet {opacity:0!important}
+ .aura {opacity:.22!important}
+ .spark {opacity:.2!important}
+}
+</style>
+<rect x=".5" y=".5" width="439" height="97" rx="12" fill="#101922" stroke="#253444"/>
+<path d="M18 25V73" stroke="#78dced" stroke-width="2"/>
+<text x="34" y="32" font-family="Arial, Helvetica, sans-serif" font-size="9" fill="#9caebb" letter-spacing="1.1" text-anchor="start">01 / AGENT WORKFLOWS</text>
+<path d="M665 -20Q447 -20 314.0 18.5Q181 57 120.5 132.5Q60 208 60 320Q60 432 120.5 507.5Q181 583 314.0 621.5Q447 660 665 660Q883 660 1016.0 621.5Q1149 583 1209.5 507.5Q1270 432 1270 320Q1270 208 1209.5 132.5Q1149 57 1016.0 18.5Q883 -20 665 -20ZM665 170Q768 170 843.0 182.5Q918 195 959.0 227.5Q1000 260 1000 320Q1000 380 959.0 412.5Q918 445 843.0 457.5Q768 470 665 470Q562 470 484.5 457.5Q407 445 363.5 412.5Q320 380 320 320Q320 260 363.5 227.5Q407 195 484.5 182.5Q562 170 665 170ZM1375 490H1615V0H1375ZM1873 305Q1808 305 1754.0 293.0Q1700 281 1662.0 264.5Q1624 248 1605 232L1603 280Q1606 301 1619.0 329.5Q1632 358 1654.0 388.5Q1676 419 1708.0 445.5Q1740 472 1781.5 488.5Q1823 505 1873 505ZM1898 490H2153L2445 20L2238 0ZM2818 490 2331 -200H2086L2295 83L2563 490ZM3773 490 3373 202 3127 0H2833L3239 300L3479 490ZM2833 490H3127L3379 307L3793 0H3499L3236 191ZM4524 176H4760Q4751 118 4702.5 75.0Q4654 32 4561.5 8.5Q4469 -15 4326 -15Q4175 -15 4065.5 9.0Q3956 33 3897.0 90.0Q3838 147 3838 244Q3838 340 3895.5 397.5Q3953 455 4062.0 480.0Q4171 505 4326 505Q4478 505 4575.0 478.0Q4672 451 4718.0 390.5Q4764 330 4762 227H4082Q4087 201 4110.5 179.0Q4134 157 4183.5 143.5Q4233 130 4316 130Q4402 130 4457.5 142.0Q4513 154 4524 176ZM4316 360Q4210 360 4154.5 337.0Q4099 314 4089 291H4529Q4522 317 4473.0 338.5Q4424 360 4316 360ZM4842 490H5082V0H4842ZM5442 505Q5501 505 5556.0 492.5Q5611 480 5654.5 450.0Q5698 420 5724.0 368.0Q5750 316 5750 237V0H5510V207Q5510 282 5471.0 313.5Q5432 345 5330 345Q5276 345 5225.5 333.0Q5175 321 5135.0 304.5Q5095 288 5072 272L5070 310Q5074 328 5097.5 360.5Q5121 393 5166.0 426.0Q5211 459 5279.5 482.0Q5348 505 5442 505ZM6029 97V247H6713V97ZM5805 0 6234 640H6512L6945 0H6670L6299 573H6448L6080 0ZM7040 640H7290V0H7040Z" transform="translate(33 73) scale(0.027 -0.027)" fill="#eaf2f8"/>
+<g transform="translate(391 57)" stroke="#78dced" fill="none" stroke-width="1.4">
+<ellipse rx="28" ry="10" transform="rotate(-28)"/><ellipse rx="28" ry="10" transform="rotate(28)"/>
+<circle r="3" fill="#78dced" stroke="none"/>
+<g class="orbit"><circle cx="23" cy="-9" r="2.4" fill="#78dced" stroke="none"/><circle cx="-23" cy="9" r="2.4" fill="#78dced" stroke="none"/></g>
+</g>
+</svg>
