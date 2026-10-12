@@ -1,19 +1,14 @@
 {
   "username": "yashsrivastava0",
   "source": "https://github.com/users/yashsrivastava0/contributions",
-  "as_of": "2026-10-11",
-  "window_start": "2026-07-20",
-  "window_end": "2026-10-11",
-  "total": 1882,
-  "active_days": 56,
-  "days_observed": 84,
-  "last_week_partial": false,
+  "as_of": "2026-10-12",
+  "window_start": "2026-07-27",
+  "window_end": "2026-10-12",
+  "total": 1879,
+  "active_days": 55,
+  "days_observed": 78,
+  "last_week_partial": true,
   "weekly": [
-    {
-      "start": "2026-07-20",
-      "end": "2026-07-26",
-      "count": 3
-    },
     {
       "start": "2026-07-27",
       "end": "2026-08-02",
@@ -68,37 +63,14 @@
       "start": "2026-10-05",
       "end": "2026-10-11",
       "count": 66
+    },
+    {
+      "start": "2026-10-12",
+      "end": "2026-10-12",
+      "count": 0
     }
   ],
   "daily": [
-    {
-      "date": "2026-07-20",
-      "count": 0
-    },
-    {
-      "date": "2026-07-21",
-      "count": 3
-    },
-    {
-      "date": "2026-07-22",
-      "count": 0
-    },
-    {
-      "date": "2026-07-23",
-      "count": 0
-    },
-    {
-      "date": "2026-07-24",
-      "count": 0
-    },
-    {
-      "date": "2026-07-25",
-      "count": 0
-    },
-    {
-      "date": "2026-07-26",
-      "count": 0
-    },
     {
       "date": "2026-07-27",
       "count": 0
@@ -405,6 +377,10 @@
     },
     {
       "date": "2026-10-11",
+      "count": 0
+    },
+    {
+      "date": "2026-10-12",
       "count": 0
     }
   ]
