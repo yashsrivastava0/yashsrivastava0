@@ -1,42 +1,42 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="900" height="192" viewBox="0 0 900 192" role="img" aria-labelledby="title desc">
-<title id="title">yashsrivastava0: 1880 GitHub contributions across 12 weeks</title><desc id="desc">2026-07-27 through 2026-10-18. 56 active days out of 84 observed days. Counts from the signed-out GitHub contribution calendar; they are not commit totals. All weeks are complete.</desc>
+<title id="title">yashsrivastava0: 1915 GitHub contributions across 12 weeks</title><desc id="desc">2026-08-03 through 2026-10-19. 58 active days out of 78 observed days. Counts from the signed-out GitHub contribution calendar; they are not commit totals. The final week is partial.</desc>
 <rect x="0.5" y="0.5" width="899" height="191" rx="12" fill="#0d1117" stroke="#30363d"/>
 <text x="24" y="31" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="700" text-anchor="start" fill="#67e8f9">GITHUB ACTIVITY</text>
-<text x="24" y="86" font-family="Arial, Helvetica, sans-serif" font-size="44" font-weight="700" text-anchor="start" fill="#f0f6fc">1,880</text>
+<text x="24" y="86" font-family="Arial, Helvetica, sans-serif" font-size="44" font-weight="700" text-anchor="start" fill="#f0f6fc">1,915</text>
 <text x="24" y="110" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="400" text-anchor="start" fill="#a4b1bf">contributions / 12 weeks</text>
-<text x="24" y="140" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="600" text-anchor="start" fill="#f0f6fc">56 active days</text>
-<text x="24" y="167" font-family="Arial, Helvetica, sans-serif" font-size="11" font-weight="400" text-anchor="start" fill="#a4b1bf">As of Oct 18, 2026</text>
+<text x="24" y="140" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="600" text-anchor="start" fill="#f0f6fc">58 active days</text>
+<text x="24" y="167" font-family="Arial, Helvetica, sans-serif" font-size="11" font-weight="400" text-anchor="start" fill="#a4b1bf">As of Oct 19, 2026</text>
 <path d="M244 28V165" stroke="#30363d"/>
 <text x="272" y="31" font-family="Arial, Helvetica, sans-serif" font-size="11" font-weight="600" text-anchor="start" fill="#a4b1bf">WEEKLY GITHUB CONTRIBUTIONS</text>
-<text x="872" y="31" font-family="Arial, Helvetica, sans-serif" font-size="11" font-weight="400" text-anchor="end" fill="#a4b1bf">12 complete weeks</text>
+<text x="872" y="31" font-family="Arial, Helvetica, sans-serif" font-size="11" font-weight="400" text-anchor="end" fill="#a4b1bf">Final week partial</text>
 <path d="M272 141h600" stroke="#30363d"/>
-<rect x="272" y="140" width="38" height="0" rx="3" fill="#155e75"><title>2026-07-27–2026-08-02: 0 contributions</title></rect>
-<text x="291.0" y="133" font-family="Arial, Helvetica, sans-serif" font-size="11" font-weight="400" text-anchor="middle" fill="#f0f6fc">0</text>
-<text x="291.0" y="165" font-family="Arial, Helvetica, sans-serif" font-size="10" font-weight="400" text-anchor="middle" fill="#a4b1bf">Jul 27</text>
-<rect x="322" y="138" width="38" height="2" rx="3" fill="#155e75"><title>2026-08-03–2026-08-09: 7 contributions</title></rect>
-<text x="341.0" y="131" font-family="Arial, Helvetica, sans-serif" font-size="11" font-weight="400" text-anchor="middle" fill="#f0f6fc">7</text>
-<rect x="372" y="134.275" width="38" height="5.72468" rx="3" fill="#155e75"><title>2026-08-10–2026-08-16: 29 contributions</title></rect>
-<text x="391.0" y="127.27532467532467" font-family="Arial, Helvetica, sans-serif" font-size="11" font-weight="400" text-anchor="middle" fill="#f0f6fc">29</text>
-<rect x="422" y="84.7273" width="38" height="55.2727" rx="3" fill="#155e75"><title>2026-08-17–2026-08-23: 280 contributions</title></rect>
-<text x="441.0" y="77.72727272727272" font-family="Arial, Helvetica, sans-serif" font-size="11" font-weight="400" text-anchor="middle" fill="#f0f6fc">280</text>
-<text x="441.0" y="165" font-family="Arial, Helvetica, sans-serif" font-size="10" font-weight="400" text-anchor="middle" fill="#a4b1bf">Aug 17</text>
-<rect x="472" y="64" width="38" height="76" rx="3" fill="#155e75"><title>2026-08-24–2026-08-30: 385 contributions</title></rect>
-<text x="491.0" y="57.0" font-family="Arial, Helvetica, sans-serif" font-size="11" font-weight="400" text-anchor="middle" fill="#f0f6fc">385</text>
-<rect x="522" y="66.961" width="38" height="73.039" rx="3" fill="#155e75"><title>2026-08-31–2026-09-06: 370 contributions</title></rect>
-<text x="541.0" y="59.961038961038966" font-family="Arial, Helvetica, sans-serif" font-size="11" font-weight="400" text-anchor="middle" fill="#f0f6fc">370</text>
-<rect x="572" y="87.4909" width="38" height="52.5091" rx="3" fill="#155e75"><title>2026-09-07–2026-09-13: 266 contributions</title></rect>
-<text x="591.0" y="80.4909090909091" font-family="Arial, Helvetica, sans-serif" font-size="11" font-weight="400" text-anchor="middle" fill="#f0f6fc">266</text>
-<text x="591.0" y="165" font-family="Arial, Helvetica, sans-serif" font-size="10" font-weight="400" text-anchor="middle" fill="#a4b1bf">Sep 07</text>
-<rect x="622" y="104.468" width="38" height="35.5325" rx="3" fill="#155e75"><title>2026-09-14–2026-09-20: 180 contributions</title></rect>
-<text x="641.0" y="97.46753246753246" font-family="Arial, Helvetica, sans-serif" font-size="11" font-weight="400" text-anchor="middle" fill="#f0f6fc">180</text>
-<rect x="672" y="106.047" width="38" height="33.9532" rx="3" fill="#155e75"><title>2026-09-21–2026-09-27: 172 contributions</title></rect>
-<text x="691.0" y="99.04675324675324" font-family="Arial, Helvetica, sans-serif" font-size="11" font-weight="400" text-anchor="middle" fill="#f0f6fc">172</text>
-<rect x="722" y="115.522" width="38" height="24.4779" rx="3" fill="#155e75"><title>2026-09-28–2026-10-04: 124 contributions</title></rect>
-<text x="741.0" y="108.52207792207793" font-family="Arial, Helvetica, sans-serif" font-size="11" font-weight="400" text-anchor="middle" fill="#f0f6fc">124</text>
-<text x="741.0" y="165" font-family="Arial, Helvetica, sans-serif" font-size="10" font-weight="400" text-anchor="middle" fill="#a4b1bf">Sep 28</text>
-<rect x="772" y="126.971" width="38" height="13.0286" rx="3" fill="#155e75"><title>2026-10-05–2026-10-11: 66 contributions</title></rect>
-<text x="791.0" y="119.97142857142858" font-family="Arial, Helvetica, sans-serif" font-size="11" font-weight="400" text-anchor="middle" fill="#f0f6fc">66</text>
-<rect x="822" y="138" width="38" height="2" rx="3" fill="#67e8f9"><title>2026-10-12–2026-10-18: 1 contributions</title></rect>
-<text x="841.0" y="131" font-family="Arial, Helvetica, sans-serif" font-size="11" font-weight="400" text-anchor="middle" fill="#f0f6fc">1</text>
-<text x="841.0" y="165" font-family="Arial, Helvetica, sans-serif" font-size="10" font-weight="400" text-anchor="middle" fill="#a4b1bf">Oct 12</text>
+<rect x="272" y="138" width="38" height="2" rx="3" fill="#155e75"><title>2026-08-03–2026-08-09: 7 contributions</title></rect>
+<text x="291.0" y="131" font-family="Arial, Helvetica, sans-serif" font-size="11" font-weight="400" text-anchor="middle" fill="#f0f6fc">7</text>
+<text x="291.0" y="165" font-family="Arial, Helvetica, sans-serif" font-size="10" font-weight="400" text-anchor="middle" fill="#a4b1bf">Aug 03</text>
+<rect x="322" y="134.275" width="38" height="5.72468" rx="3" fill="#155e75"><title>2026-08-10–2026-08-16: 29 contributions</title></rect>
+<text x="341.0" y="127.27532467532467" font-family="Arial, Helvetica, sans-serif" font-size="11" font-weight="400" text-anchor="middle" fill="#f0f6fc">29</text>
+<rect x="372" y="84.7273" width="38" height="55.2727" rx="3" fill="#155e75"><title>2026-08-17–2026-08-23: 280 contributions</title></rect>
+<text x="391.0" y="77.72727272727272" font-family="Arial, Helvetica, sans-serif" font-size="11" font-weight="400" text-anchor="middle" fill="#f0f6fc">280</text>
+<rect x="422" y="64" width="38" height="76" rx="3" fill="#155e75"><title>2026-08-24–2026-08-30: 385 contributions</title></rect>
+<text x="441.0" y="57.0" font-family="Arial, Helvetica, sans-serif" font-size="11" font-weight="400" text-anchor="middle" fill="#f0f6fc">385</text>
+<text x="441.0" y="165" font-family="Arial, Helvetica, sans-serif" font-size="10" font-weight="400" text-anchor="middle" fill="#a4b1bf">Aug 24</text>
+<rect x="472" y="66.961" width="38" height="73.039" rx="3" fill="#155e75"><title>2026-08-31–2026-09-06: 370 contributions</title></rect>
+<text x="491.0" y="59.961038961038966" font-family="Arial, Helvetica, sans-serif" font-size="11" font-weight="400" text-anchor="middle" fill="#f0f6fc">370</text>
+<rect x="522" y="87.4909" width="38" height="52.5091" rx="3" fill="#155e75"><title>2026-09-07–2026-09-13: 266 contributions</title></rect>
+<text x="541.0" y="80.4909090909091" font-family="Arial, Helvetica, sans-serif" font-size="11" font-weight="400" text-anchor="middle" fill="#f0f6fc">266</text>
+<rect x="572" y="104.468" width="38" height="35.5325" rx="3" fill="#155e75"><title>2026-09-14–2026-09-20: 180 contributions</title></rect>
+<text x="591.0" y="97.46753246753246" font-family="Arial, Helvetica, sans-serif" font-size="11" font-weight="400" text-anchor="middle" fill="#f0f6fc">180</text>
+<text x="591.0" y="165" font-family="Arial, Helvetica, sans-serif" font-size="10" font-weight="400" text-anchor="middle" fill="#a4b1bf">Sep 14</text>
+<rect x="622" y="106.047" width="38" height="33.9532" rx="3" fill="#155e75"><title>2026-09-21–2026-09-27: 172 contributions</title></rect>
+<text x="641.0" y="99.04675324675324" font-family="Arial, Helvetica, sans-serif" font-size="11" font-weight="400" text-anchor="middle" fill="#f0f6fc">172</text>
+<rect x="672" y="115.522" width="38" height="24.4779" rx="3" fill="#155e75"><title>2026-09-28–2026-10-04: 124 contributions</title></rect>
+<text x="691.0" y="108.52207792207793" font-family="Arial, Helvetica, sans-serif" font-size="11" font-weight="400" text-anchor="middle" fill="#f0f6fc">124</text>
+<rect x="722" y="126.971" width="38" height="13.0286" rx="3" fill="#155e75"><title>2026-10-05–2026-10-11: 66 contributions</title></rect>
+<text x="741.0" y="119.97142857142858" font-family="Arial, Helvetica, sans-serif" font-size="11" font-weight="400" text-anchor="middle" fill="#f0f6fc">66</text>
+<text x="741.0" y="165" font-family="Arial, Helvetica, sans-serif" font-size="10" font-weight="400" text-anchor="middle" fill="#a4b1bf">Oct 05</text>
+<rect x="772" y="137.631" width="38" height="2.36883" rx="3" fill="#155e75"><title>2026-10-12–2026-10-18: 12 contributions</title></rect>
+<text x="791.0" y="130.63116883116882" font-family="Arial, Helvetica, sans-serif" font-size="11" font-weight="400" text-anchor="middle" fill="#f0f6fc">12</text>
+<rect x="822" y="135.262" width="38" height="4.73766" rx="3" fill="#67e8f9"><title>2026-10-19–2026-10-19: 24 contributions (partial week)</title></rect>
+<text x="841.0" y="128.26233766233767" font-family="Arial, Helvetica, sans-serif" font-size="11" font-weight="400" text-anchor="middle" fill="#f0f6fc">24</text>
+<text x="841.0" y="165" font-family="Arial, Helvetica, sans-serif" font-size="10" font-weight="400" text-anchor="middle" fill="#a4b1bf">Oct 19</text>
 </svg>
