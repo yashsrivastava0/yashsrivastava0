@@ -1,8 +1,8 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="400" height="224" viewBox="0 0 400 224" role="img" aria-labelledby="title desc">
-<title id="title">yashsrivastava0: 1918 GitHub contributions across 12 weeks</title><desc id="desc">2026-08-03 through 2026-10-24. 59 active days out of 83 observed days. Counts from the signed-out GitHub contribution calendar; they are not commit totals. The final week is partial.</desc>
+<title id="title">yashsrivastava0: 1918 GitHub contributions across 12 weeks</title><desc id="desc">2026-08-03 through 2026-10-25. 59 active days out of 84 observed days. Counts from the signed-out GitHub contribution calendar; they are not commit totals. All weeks are complete.</desc>
 <rect x="0.5" y="0.5" width="399" height="223" rx="12" fill="#0d1117" stroke="#30363d"/>
 <text x="20" y="29" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="700" text-anchor="start" fill="#67e8f9">GITHUB ACTIVITY</text>
-<text x="20" y="49" font-family="Arial, Helvetica, sans-serif" font-size="11" font-weight="400" text-anchor="start" fill="#a4b1bf">GitHub contributions · as of Oct 24, 2026</text>
+<text x="20" y="49" font-family="Arial, Helvetica, sans-serif" font-size="11" font-weight="400" text-anchor="start" fill="#a4b1bf">GitHub contributions · as of Oct 25, 2026</text>
 <text x="20" y="92" font-family="Arial, Helvetica, sans-serif" font-size="34" font-weight="700" text-anchor="start" fill="#f0f6fc">1,918</text>
 <text x="20" y="111" font-family="Arial, Helvetica, sans-serif" font-size="11" font-weight="400" text-anchor="start" fill="#a4b1bf">contributions / 12 weeks</text>
 <text x="260" y="92" font-family="Arial, Helvetica, sans-serif" font-size="30" font-weight="700" text-anchor="start" fill="#f0f6fc">59</text>
@@ -19,8 +19,8 @@
 <rect x="260" y="172.608" width="23" height="17.3922" rx="3" fill="#155e75"><title>2026-09-28–2026-10-04: 124 contributions</title></rect>
 <rect x="290" y="180.743" width="23" height="9.25714" rx="3" fill="#155e75"><title>2026-10-05–2026-10-11: 66 contributions</title></rect>
 <rect x="320" y="188" width="23" height="2" rx="3" fill="#155e75"><title>2026-10-12–2026-10-18: 12 contributions</title></rect>
-<rect x="350" y="186.213" width="23" height="3.78701" rx="3" fill="#67e8f9"><title>2026-10-19–2026-10-24: 27 contributions (partial week)</title></rect>
+<rect x="350" y="186.213" width="23" height="3.78701" rx="3" fill="#67e8f9"><title>2026-10-19–2026-10-25: 27 contributions</title></rect>
 <text x="20" y="211" font-family="Arial, Helvetica, sans-serif" font-size="10" font-weight="400" text-anchor="start" fill="#a4b1bf">Aug 03</text>
-<text x="200" y="211" font-family="Arial, Helvetica, sans-serif" font-size="9" font-weight="400" text-anchor="middle" fill="#a4b1bf">WEEKLY · LAST WEEK PARTIAL</text>
-<text x="380" y="211" font-family="Arial, Helvetica, sans-serif" font-size="10" font-weight="400" text-anchor="end" fill="#a4b1bf">Oct 24</text>
+<text x="200" y="211" font-family="Arial, Helvetica, sans-serif" font-size="9" font-weight="400" text-anchor="middle" fill="#a4b1bf">WEEKLY CONTRIBUTIONS</text>
+<text x="380" y="211" font-family="Arial, Helvetica, sans-serif" font-size="10" font-weight="400" text-anchor="end" fill="#a4b1bf">Oct 25</text>
 </svg>
